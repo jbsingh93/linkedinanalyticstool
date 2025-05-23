@@ -7,38 +7,39 @@
     *   [x] Set up Tailwind CSS.
     *   [x] Install and configure Shadcn UI with neutral color theme.
     *   [x] Initialize Git repository.
-    *   [ ] Create a new GitHub repository and push the initial project.
+    *   [x] Create a new GitHub repository and push the initial project.
     *   [ ] Connect GitHub repository to Vercel for CI/CD.
-*   [ ] **Task 2: Basic Application Layout & Pages** (reference: `frontend_requirements.md`, `design_ux_ui_requirements.md`)
-    *   [ ] Create a basic page structure in Next.js (`app` directory with `layout.tsx` and `page.tsx`).
-    *   [ ] Implement a simple header component.
-    *   [ ] Implement a simple footer component (if desired, or omit for simplicity).
-    *   [ ] Design the main content area placeholder.
-    *   [ ] Ensure the light theme is applied globally.
-*   [ ] **Task 3: Setup Supabase Project** (reference: `technical_infrastructure.md`, `backend_requirements.md`)
-    *   [ ] Create a new project on Supabase.
-    *   [ ] Note down Supabase URL and anon key.
-    *   [ ] Set up environment variables for Supabase keys in `.env.local` and Vercel.
-*   [ ] **Task 4: Implement Basic Login UI (Frontend Only)** (reference: `frontend_requirements.md`, `design_ux_ui_requirements.md`, `user_flow_and_experience.md`)
-    *   [ ] Create a simple login page/component using Shadcn UI form elements (email/password fields, login button).
-    *   [ ] Style the login page.
-    *   [ ] For now, this will be UI only; Supabase Auth integration comes later.
-    *   [ ] Create a placeholder for the main application view that will be shown after "login".
-*   [ ] **Task 5: Basic Post Display Wireframe (Frontend with Mock Data)** (reference: `frontend_requirements.md`, `design_ux_ui_requirements.md`)
-    *   [ ] Create mock data structure for a few sample LinkedIn posts (JSON format).
-    *   [ ] Create a `PostCard` component (Shadcn UI Card) to display a single post.
-        *   [ ] Include placeholders for: Date/Time, Text Content, Media (image/video placeholder), Likes Count, Comments Count.
-        *   [ ] Add placeholder "Copy Content" and "Copy URL" buttons (Shadcn UI Button).
-    *   [ ] Create a `PostList` component that renders a list of `PostCard` components using the mock data.
-    *   [ ] Implement basic chronological display (newest first based on mock data).
-    *   [ ] Implement the basic structure for the "Card View".
-    *   [ ] Implement the basic structure for the "List View" (using mock data).
-        *   [ ] Include placeholders for: Thumbnail, Text Snippet, Likes/Comments counts, Action Buttons.
-    *   [ ] Add a simple UI toggle (e.g., buttons) to switch between Card View and List View (frontend state only for now).
-*   [ ] **Task 6: Search Bar UI (Frontend Only)** (reference: `frontend_requirements.md`, `design_ux_ui_requirements.md`)
-    *   [ ] Add a search input field (Shadcn UI Input) to the header or main content area.
-    *   [ ] Style the search bar.
-    *   [ ] Implement basic frontend filtering of the mock data list as the user types (debounce can be added later).
+*   [x] **Task 2: Basic Application Layout & Pages** (reference: `frontend_requirements.md`, `design_ux_ui_requirements.md`)
+    *   [x] Create a basic page structure in Next.js (`app` directory with `layout.tsx` and `page.tsx`).
+    *   [x] Implement a simple header component.
+    *   [x] Implement a simple footer component.
+    *   [x] Design the main content area placeholder.
+    *   [x] Ensure the light theme is applied globally.
+*   [x] **Task 3: Setup Supabase Project** (reference: `technical_infrastructure.md`, `backend_requirements.md`)
+    *   [x] Create a new project on Supabase (Project: "LinkedIn Personal Analytics").
+    *   [x] Note down Supabase URL and anon key.
+    *   [x] Set up environment variables for Supabase keys in `.env.local`.
+    *   [ ] Set up environment variables for Supabase keys in Vercel.
+*   [x] **Task 4: Implement Basic Login UI (Frontend Only)** (reference: `frontend_requirements.md`, `design_ux_ui_requirements.md`, `user_flow_and_experience.md`)
+    *   [x] Create a simple login page/component using Shadcn UI form elements (email/password fields, login button).
+    *   [x] Style the login page.
+    *   [x] For now, this will be UI only; Supabase Auth integration comes later.
+    *   [x] Create a placeholder for the main application view that will be shown after "login".
+*   [x] **Task 5: Basic Post Display Wireframe (Frontend with Mock Data)** (reference: `frontend_requirements.md`, `design_ux_ui_requirements.md`)
+    *   [x] Create mock data structure for a few sample LinkedIn posts (JSON format).
+    *   [x] Create a `PostCard` component (Shadcn UI Card) to display a single post.
+        *   [x] Include placeholders for: Date/Time, Text Content, Media (image/video placeholder), Likes Count, Comments Count.
+        *   [x] Add placeholder "Copy Content" and "Copy URL" buttons (Shadcn UI Button).
+    *   [x] Create a `PostList` component that renders a list of `PostCard` components using the mock data.
+    *   [x] Implement basic chronological display (newest first based on mock data).
+    *   [x] Implement the basic structure for the "Card View".
+    *   [x] Implement the basic structure for the "List View" (using mock data).
+        *   [x] Include placeholders for: Thumbnail, Text Snippet, Likes/Comments counts, Action Buttons.
+    *   [x] Add a simple UI toggle (e.g., buttons) to switch between Card View and List View (frontend state only for now).
+*   [x] **Task 6: Search Bar UI (Frontend Only)** (reference: `frontend_requirements.md`, `design_ux_ui_requirements.md`)
+    *   [x] Add a search input field (Shadcn UI Input) to the header or main content area.
+    *   [x] Style the search bar.
+    *   [x] Implement basic frontend filtering of the mock data list as the user types (debounce can be added later).
 
 ### Testing Checkpoint 1:
     *   [ ] Verify project setup on Vercel.
